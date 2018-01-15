@@ -18,7 +18,7 @@ function karuna_custom_header_setup() {
 		'default-image'          => get_template_directory_uri() . '/assets/images/header.jpg',
 		'default-text-color'     => '333333',
 		'width'                  => 2000,
-		'height'                 => 800,
+		'height'                 => 300,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'karuna_header_style',
 	) ) );
