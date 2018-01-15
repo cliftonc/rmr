@@ -42,8 +42,8 @@ function karuna_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	add_image_size( 'karuna-featured-image', 685, 9999 );
-	add_image_size( 'karuna-hero', 300, 9999 );
+	add_image_size( 'karuna-featured-image', 685, 300 );
+	add_image_size( 'karuna-hero', 2000, 300 );
 	add_image_size( 'karuna-grid', 342, 228, true );
 	add_image_size( 'karuna-thumbnail-avatar', 100, 100, true );
 
