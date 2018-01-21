@@ -1834,7 +1834,7 @@ object {
 	}
 
 	.site-content .full-width-widget-area {
-		padding-top: 3.2em;
+		padding-top: 1em;
 	}
 	.site-content .full-width-widget-area .widget-title {
 		font-size: 28px;
@@ -2081,7 +2081,7 @@ object {
 	}
 
 	.site-content {
-		padding: 3.2em 10%;
+		padding: 1em 10%;
 	}
 
 	.site-main {
