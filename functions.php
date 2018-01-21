@@ -268,6 +268,29 @@ if ( ! function_exists( 'karuna_excerpt_more' ) ) :
 endif;
 
 /**
+ * Remove the 'phone' field from the Donation Form.
+ *
+ * @param   array $fields All of the fields to be displayed in the form.
+ * @return  array
+ */
+function ed_remove_phone_field_from_donation_form( $fields ) {
+    unset( $fields['phone'] );
+    return $fields;
+}
+add_filter( 'charitable_donation_form_user_fields', 'ed_remove_phone_field_from_donation_form' );
+/**
+ * Remove the 'phone' field from the Profile Form (User Address section).
+ *
+ * @param   array $fields All of the fields to be displayed in the form.
+ * @return  array
+ */
+function ed_remove_phone_field_from_profile_form( $fields ) {
+    unset( $fields['phone'] );
+    return $fields;
+}
+add_filter( 'charitable_user_address_fields', 'ed_remove_phone_field_from_donation_form' );
+
+/**
  * Custom header support
  */
 require get_template_directory() . '/inc/custom-header.php';
