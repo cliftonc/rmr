@@ -358,7 +358,6 @@ function ed_remove_fields_from_donation_form( $fields ) {
     unset( $fields['address_2'] );
     unset( $fields['city'] );
     unset( $fields['state'] );
-    unset( $fields['postcode'] );
     return $fields;
 }
 add_filter( 'charitable_donation_form_user_fields', 'ed_remove_fields_from_donation_form' );
@@ -374,7 +373,6 @@ function ed_remove_fields_from_profile_form( $fields ) {
     unset( $fields['address_2'] );
     unset( $fields['city'] );
     unset( $fields['state'] );
-    unset( $fields['postcode'] );
     return $fields;
 }
 add_filter( 'charitable_user_address_fields', 'ed_remove_fields_from_profile_form' );
