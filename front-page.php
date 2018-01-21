@@ -21,7 +21,6 @@ get_header(); ?>
 
 			<?php get_template_part( 'components/features/testimonials/testimonials' ); ?>
 
-			<?php get_template_part( 'components/features/recent-posts/recent-posts' ); ?>
 		</main>
 	</div>
 
